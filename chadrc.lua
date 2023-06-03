@@ -5,5 +5,6 @@
   transparency =true
  }
  M.plugins = "custom.plugins"
- return M
+ M.mappings = require "custom.mappings" 
+return M
 
